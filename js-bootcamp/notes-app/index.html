@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Notes App</title>
+  </head>
+  <body>
+    <input type="text" placeholder="Filter..." id="filter-field" />
+    <select name="sortNotes" id="sort-notes">
+      <option value="byUpdated">By Updated</option>
+      <option value="byCreated">By Created</option>
+      <option value="byAlphabet">Alphabetically</option>
+    </select>
+    <div id="note-section"></div>
+    <button id="new-note-btn">New note</button>
+
+    <script src="moment.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uuid@latest/dist/umd/uuidv4.min.js"></script>
+    <script src="notes-functions.js"></script>
+    <script src="notes-app.js"></script>
+  </body>
+</html>

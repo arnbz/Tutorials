@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Todo</title>
+  </head>
+  <body>
+    <h1>Todos</h1>
+    <input type="text" id="filter-text" placeholder="Filter todo" />
+    <br />
+    <br />
+    <label>
+      <input
+        type="checkbox"
+        name="hideCompeleted"
+        id="hide-complete-checkbox"
+      />
+      Hide completed
+    </label>
+    <form id="new-todo-form">
+      <input type="text" placeholder="Add todo" name="newTodoField" />
+      <button type="submit">Add todo</button>
+    </form>
+    <div id="todo-section"></div>
+
+    <script src="https://unpkg.com/uuid@latest/dist/umd/uuidv4.min.js"></script>
+    <script src="todo-app-functions.js"></script>
+    <script src="todo-app.js"></script>
+  </body>
+</html>
