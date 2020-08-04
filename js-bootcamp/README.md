@@ -3,7 +3,7 @@ Udemy JavaScript Tutorial by Andrew Mead
 
 ## Topics learned
 
-### Basics
+### Language Basics
 1. Language fundamentals (data types)
 2. Functions (return types, argument defaults, scope)
 3. Objects, properties and methods
